@@ -63,7 +63,13 @@ class BADBOT(Client):
                         text="๏ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ๏",
                         url=f"https://t.me/{self.username}?startgroup=true",
                     )
-                ]
+                ],
+                    [
+                    InlineKeyboardButton(
+                        text="๏ ᴏᴡɴᴇʀ ๏",
+                        url=f"https://t.me/II_BAD_BABY_II",
+                    )
+                    ]
             ]
         )
 
