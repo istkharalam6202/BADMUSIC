@@ -58,18 +58,23 @@ class BADBOT(Client):
         # Create the button
         button = InlineKeyboardMarkup(
             [
+                                   [
+                    InlineKeyboardButton(
+                        text="๏ ᴏᴡɴᴇʀ ๏",
+                        url=f"https://t.me/II_BAD_BABY_II",
+                    ),
+                    InlineKeyboardButton(
+                        text="๏ ᴜᴘᴅᴀᴛᴇ ๏",
+                        url=f"https://t.me/HEROKUBIN_01",
+                    )
+              ],
                 [
                     InlineKeyboardButton(
                         text="๏ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ๏",
                         url=f"https://t.me/{self.username}?startgroup=true",
                     )
-                ],
-                    [
-                    InlineKeyboardButton(
-                        text="๏ ᴏᴡɴᴇʀ ๏",
-                        url=f"https://t.me/II_BAD_BABY_II",
-                    )
-                    ]
+                ]
+ 
             ]
         )
 
